@@ -1,0 +1,36 @@
+.mainContainer{
+  padding:30px
+}
+
+@media print {
+  @page {
+    size: 330mm 427mm;    
+  }
+
+  #charMenu{
+    display: none !important;
+  }
+
+  .sheetContainer{
+    max-width: 100% !important;
+    width: 100% !important;
+    margin:0px;
+    padding: 0px;
+  }
+
+  .sheetContainer{
+    padding: 0px;
+  }
+
+  .MuiBox-root {
+    background-color:"transparent";
+  }
+  body, .bgContainer, .App{
+    background-color: #FFF
+  }
+
+  .mainContainer{
+  padding:0px
+}
+} 
+
