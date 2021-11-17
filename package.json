@@ -1,7 +1,7 @@
 {
   "name": "dnd-sheet",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://luisfontes19.github.io/dnd-sheet",
   "dependencies": {
     "@mui/material": "^5.1.1",
